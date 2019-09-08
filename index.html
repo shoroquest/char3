@@ -12,17 +12,17 @@
     <a-scene embedded arjs="sourceType: webcam;">
       <a-assets>
         <a-asset-item
-          id="aralash"
-          src="https://raw.githubusercontent.com/shoroquest/char2/master/assets/terminator.glb"
+          id="mask"
+          src="https://raw.githubusercontent.com/shoroquest/char3/master/assets/scene.glb"
         ></a-asset-item>
       </a-assets>
 
       <a-marker
         preset="custom"
         type="pattern"
-        url="https://raw.githubusercontent.com/shoroquest/char2/master/assets/stakan.patt"
+        url="https://raw.githubusercontent.com/shoroquest/char3/master/assets/bottle.patt"
         ><a-entity
-          gltf-model="#aralash"
+          gltf-model="#mask"
           animation-mixer
           scale="2.5 2.5 2.5"
           position="0 0 0"
